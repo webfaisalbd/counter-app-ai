@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/counter-app-ai/static/css/main.ad5a48cb.css",
+    "main.js": "/counter-app-ai/static/js/main.6a14840e.js",
+    "index.html": "/counter-app-ai/index.html",
+    "main.ad5a48cb.css.map": "/counter-app-ai/static/css/main.ad5a48cb.css.map",
+    "main.6a14840e.js.map": "/counter-app-ai/static/js/main.6a14840e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ad5a48cb.css",
+    "static/js/main.6a14840e.js"
+  ]
+}
