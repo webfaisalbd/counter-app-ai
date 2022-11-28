@@ -11,12 +11,13 @@
   text-decoration: none;
   outline: none;
 }
+
 html {
   scroll-behavior: smooth;
 }
 
 body {
-  background-color: #4c4c4c;
+  background-color: lightblue;
 }
 
 .center {
@@ -36,31 +37,37 @@ body {
   color: var(--text-color);
   font-size: 2rem;
   margin-bottom: 3rem;
-  color: orange;
+  color: goldenrod;
 }
 
 .card {
-  background-color: #3c3c3c;
+  background-color: lightcyan;
   width: 100%;
   max-width: 30rem;
-  color: rgb(195, 154, 77);
+  color: goldenrod;
   padding: 1rem;
   border-radius: var(--border-radius);
 }
 
+.card__title {
+  font-size: 1.5rem;
+}
+
 .btn {
   border: none;
-  padding: 0.1rem 0.6rem;
+  padding: 0.8rem 1.5rem;
   border-radius: var(--border-radius);
   font-size: 1.6rem;
   transition: all 0.3s;
   margin: 0 0.2rem;
-  color: rgb(195, 154, 77);
+  color: goldenrod;
+  background: lightseagreen;
 }
 
 .btn:hover {
-  background-color: orange;
+  background-color: lightseagreen;
   color: black;
+  cursor: pointer;
 }
 
 .btn:disabled {
